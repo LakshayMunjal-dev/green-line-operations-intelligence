@@ -216,3 +216,21 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# Data files
+data/raw/
+data/processed/
+*.db
+*.sqlite
+*.sqlite3
+
+# Python environment
+.venv/
+__pycache__/
+*.pyc
+
+# Mac system files
+.DS_Store
+# Tableau temp/recovery files
+*.twbr
+.~*
